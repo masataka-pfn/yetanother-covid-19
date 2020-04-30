@@ -46,21 +46,3 @@
 #
 
 
-
-#
-#	GIT
-#
-#
-
-git remote add origin git@github.com:masataka-pfn/yetanother-covid-19.git
-git push origin version01
-
-git log
-$ git checkout {hash} {filepath}
-
-①過去のバージョンを取得したいレポジトリをローカルにCloneする
-$ git clone git://github.com/XXXXXXXXXXXXXX
-
-②過去のバージョンに巻き戻す
-$ git checkout [SHA]
-
